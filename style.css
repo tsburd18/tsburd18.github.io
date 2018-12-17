@@ -1,0 +1,543 @@
+body{
+	 font-family: 'Poppins', sans-serif ;
+	}
+.logo 
+{
+	
+	font-family: sans-serif;
+	font-size: 28px;
+	text-align: center;
+	margin: 0 auto;
+	font-weight: bold;
+	color: #414146;
+	font-style: italic;
+	padding: 22px;
+	
+	
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	}
+li {
+	list-style: none;
+	display: flex;
+
+}
+
+a{
+text-decoration: none;
+}
+header{
+	background: #e39e90;
+	padding: 22px 35px;
+	font-weight: bold;
+}
+.header-container {
+	width: 90%;
+	margin: o auto;
+	display: flex;
+	justify-content: space-between;
+}
+.header-container a{
+	color:#414146;
+	font-size: 18px;
+	font-style: normal;
+	margin-right: 63px;
+	padding: 35px 6px
+}
+.header-container a:hover{
+	background: #ffea00;
+}
+#menu-checkbox{
+	display: none;
+}
+
+ul{
+	display: flex;
+	
+}
+
+
+
+
+nav {
+	margin-top: 20px;
+	}
+
+
+
+
+.slider
+
+{
+width: 100%;
+height: auto;
+margin: 0 auto;
+
+
+}
+
+
+
+main {
+	background: #e39e90;
+	padding: 3px 0;
+	
+}
+
+.specilize-container{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 5px ;
+	
+}
+.specilize-container h3{
+	font-size: 35px;
+	color: #414146; 
+	padding: 20px ;
+}
+	
+
+
+.portfolio
+{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+
+
+.portfolio h4{
+	background: #414147;
+	display: inline-block;
+	font-size: 18px;
+	color: #f5e10a;
+	padding: 0 8px;
+	position: relative;
+	top: 20px;
+	
+}
+
+.portfolio p{
+	font-size: 16px;
+	color: #424146;
+	position: relative;
+	top: 35px;
+	font-weight: bold;
+	
+}
+
+.toggles button{
+	background: #e39e90;
+	border: none;
+	color: #424146;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 16px;
+		margin: 50px 2px;
+}
+
+.toggles button:after{
+	content: ' /';
+
+}
+
+.toggles button:last-child:after{
+	content: '';
+	
+}
+
+.posts{
+	width: 100%;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	margin: -50px -50px -50px -50px;
+	padding: 10px 10px 10px 10px;
+	
+}
+
+body{
+	
+}
+
+
+.brand-slider{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	right: 80px;
+	
+}
+
+
+.brand-slider h4{
+	background: #414147;
+	display: inline-block;
+	font-size: 18px;
+	color: #f5e10a;
+	padding: 0 8px;
+	position: relative;
+	
+	left: 80px;
+	
+}
+
+.brand-slider p{
+	font-size: 20px;
+	color: #424146;
+	position: relative;
+	top: 20px;
+	left: 80px;
+	font-weight: bold;
+	
+}
+
+.owl-carousel {
+	margin: 30px;
+}
+
+footer{
+	
+	background: #414146;
+	padding: 30px 0;
+	color: #fff;
+	
+	
+}
+
+footer h4{
+	font-size: 18px;
+	
+}
+
+.footer-container{
+	width: 90%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 35% 35% 20%;
+	grid-column-gap: 3%;
+}
+
+
+
+.footer-container .about-us a{
+	background: #000;
+	color: #fff;
+	padding: 15px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	border-bottom: 2px solid #ffea00;
+	font-size: 15px;
+	display: inline-block;
+	
+}
+.about-us p{
+text-align: justify;
+}
+.images{
+	margin-top: 10px;
+	
+}
+
+.tweets p{
+	margin-top: 20px;
+	padding-bottom: 10px;
+	text-align: justify;
+}
+
+.footer-container .tweets a{
+	color:  #ffea00;
+	font-size: 14px;
+}
+
+.footer-container .social-seti a{
+	color: #ffea00;
+	font-size: 18px;
+	position: relative;
+	bottom: 7px;
+	right: 7px;
+}
+
+
+
+.contacts h4{
+	padding-bottom: 20px;
+}
+
+.footer-container .contacts a{
+	color: #fff;
+	font-size: 16px;
+	position: relative;
+	bottom: 8px;
+	left: 7px;
+	
+}
+
+.footer-container .contacts p{
+	text-align: justify;
+	padding-bottom: 30px;
+}
+
+
+
+
+address{
+	
+	background: #000;
+	padding: 22px 35px;
+
+}
+.address-container {
+		height: 30px;
+	width: 90%;
+	margin: o auto;
+	display: flex;
+	justify-content: space-between;
+}
+.address-container a{
+
+	color:#999999;
+	font-style: normal;
+	font-size: 14px;
+	font-weight: bold;
+	margin-right: 120px;
+	position: relative;
+	bottom: 17px;
+
+	padding: 0 6px
+}
+.address-container a:hover{
+	background: #ffea00;
+}
+#menu-checkbox1{
+	display: none;
+}
+
+address ul{
+	display: flex;
+	
+}
+
+
+address nav {
+	margin-top: 20px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1100px){
+
+.logo 
+{
+	
+		font-size: 22px;
+	
+	
+	
+}
+
+
+
+
+
+
+.header-container{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.main-menu{
+
+	display: none;
+}
+
+
+.main-menu li{
+	width: 100%;
+	display: block;
+	font-size: 12px;
+	
+}
+.main-menu a{
+	font-size: 12px;
+	display: block;
+	padding: 8px;
+	font-weight: bold;
+}
+.toggle-button{
+	text-align: center;
+		display: block;
+	cursor: pointer;
+	color: #000;
+}
+.toggle-button:after{
+	content: attr(data-open);
+	
+	color:#414146;
+	display: block;
+}
+#menu-checkbox:checked+nav[role="navigation"] .main-menu{
+	display: block;
+}
+#menu-checkbox:checked+nav[role="navigation"] .toggle-button:after{
+	content: attr(data-close);
+}
+.header-container a{
+	margin-right: -65px;
+}
+header.main-menu{
+	position: relative;
+	top: 10px;
+	right: 25px;
+}
+
+.top-slide {
+    
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+
+.top-slide p{
+	font-size: 21px;
+	padding: 0 4px;
+}
+
+.specilize-container h3{
+	font-size: 28px;
+
+}
+
+.portfolio h4{
+
+	padding: 0 8px;
+	position: relative;
+	top: 20px;
+	
+}
+
+.portfolio p{
+
+	top: 30px;
+	font-weight: bold;
+	
+}
+
+.toggles button{
+
+	font-size: 16px;
+		margin: 40px 2px;
+}
+
+
+
+
+
+
+.specilize-card{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+
+.bottom-card {
+	width: 250px;
+	margin: 0 auto;
+	
+}
+
+
+
+.posts{
+	grid-template-columns: auto;
+	margin: -50px;
+	padding: 10px;
+	
+}
+
+
+
+
+
+
+.address-container{
+	height: 250px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.main-menu1{
+
+	display: none;
+}
+
+
+.main-menu1 li{
+	width: 100%;
+	
+	display: block;
+	font-size: 16px;
+	
+}
+.main-menu1 a{
+	font-size: 16px;
+	
+	display: block;
+	padding: 8px;
+	font-weight: bold;
+}
+.toggle-button1{
+	font-size: 20px;
+	font-style: normal;
+	text-align: center;
+		display: block;
+	cursor: pointer;
+	color: #000;
+}
+.toggle-button1:after{
+	content: attr(data-open);
+	position: center;
+	font-size: 20px;
+	color:#999999;
+	display: block;
+}
+#menu-checkbox1:checked+nav[role="navigation"] .main-menu1{
+	display: block;
+}
+#menu-checkbox1:checked+nav[role="navigation"] .toggle-button1:after{
+	content: attr(data-close);
+}
+.address-container a{
+	margin-right: -65px;
+}
+address .main-menu1{
+	position: relative;
+	top: 20px;
+	right:25px;
+}
+
+}
